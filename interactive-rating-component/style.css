@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "figtree";
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image{
+    width:50px;
+    height: 50px;
+    margin: 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    border-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+p {
+    margin: 20px 20px;
+    width: 350px;
+    color: hsl(217, 12%, 63%);
+    font-size: smaller;
+    line-height: 2;
+    text-align: left;
+    font-size: 15px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    margin-left: 10px;
+
+}
+
+.button {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 30;
+}
+
+.sub-btn{
+    margin: 35px 20px;
+    width: 350px;
+    height: 40px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#btn{
+    background-color: transparent;
+    border: 1px solid hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    font-family: "figtree";
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.attribution {
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sub-btn {
+        height: 45px;
+    }
+
+    #btn {
+        font-size: 14px;
+    }
+}
